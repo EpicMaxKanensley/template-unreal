@@ -30,7 +30,7 @@ const FString TbNamesLocalBackendIdentifier = "Local";
 UCLASS(Config = Engine, DefaultConfig)
 class TBNAMES_API UTbNamesSettings : public UObject
 {
-	GENERATED_UCLASS_BODY()
+	GENERATED_BODY()
 
 	// Callback used to validate the settings once the engine is available
 	void ValidateSettingsPostEngineInit();

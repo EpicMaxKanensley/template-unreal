@@ -30,7 +30,7 @@ const FString ExternTypesLocalBackendIdentifier = "Local";
 UCLASS(Config = Engine, DefaultConfig)
 class EXTERNTYPES_API UExternTypesSettings : public UObject
 {
-	GENERATED_UCLASS_BODY()
+	GENERATED_BODY()
 
 	// Callback used to validate the settings once the engine is available
 	void ValidateSettingsPostEngineInit();

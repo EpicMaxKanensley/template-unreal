@@ -30,7 +30,7 @@ const FString CounterLocalBackendIdentifier = "Local";
 UCLASS(Config = Engine, DefaultConfig)
 class COUNTER_API UCounterSettings : public UObject
 {
-	GENERATED_UCLASS_BODY()
+	GENERATED_BODY()
 
 	// Callback used to validate the settings once the engine is available
 	void ValidateSettingsPostEngineInit();

@@ -34,7 +34,7 @@ struct FApiGearConnectionSetting
 UCLASS(Config = Engine, DefaultConfig)
 class APIGEAR_API UApiGearSettings : public UObject
 {
-	GENERATED_UCLASS_BODY()
+	GENERATED_BODY()
 	/** Choose the server to connect to */
 	UPROPERTY(EditAnywhere, config, Category = TracerSetup, meta = (ConfigRestartRequired = true))
 	FString Tracer_URL;

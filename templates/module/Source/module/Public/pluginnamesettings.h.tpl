@@ -34,7 +34,7 @@ const FString {{$ModuleName}}LocalBackendIdentifier = "Local";
 UCLASS(Config = Engine, DefaultConfig)
 class {{$API_MACRO}} U{{$ModuleName}}Settings : public UObject
 {
-	GENERATED_UCLASS_BODY()
+	GENERATED_BODY()
 
 	// Callback used to validate the settings once the engine is available
 	void ValidateSettingsPostEngineInit();
