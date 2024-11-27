@@ -3,8 +3,8 @@
 {{- $API_MACRO := printf "%s_API" (CAMEL .Module.Name) }}
 {{- $Category := printf "ApiGear%s" $ModuleName -}}
 /**
-Copyright 2021 ApiGear UG
-Copyright 2021 Epic Games, Inc.
+Copyright 2024 ApiGear UG
+Copyright 2024 Epic Games, Inc.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
