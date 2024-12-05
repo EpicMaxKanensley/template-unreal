@@ -37,14 +37,14 @@ class CUSTOMTYPES_API UCustomTypesSettings : public UObject
 
 
 public:
-	// Callback used to validate the settings once the engine is available
+	/** Callback used to validate the settings once the engine is available */
 	void ValidateSettingsPostEngineInit();
 
-	// Choose the backend service for the logging decorator to use
+	/** Choose the backend service for the logging decorator to use */
 	UPROPERTY(EditAnywhere, config, Category = TracerServiceSetup)
 	FString TracerServiceIdentifier;
 
-	// Choose the olink connection to use
+	/** Choose the olink connection to use */
 	UPROPERTY(EditAnywhere, config, Category = OLinkConnectionSetup)
 	FString OLinkConnectionIdentifier;
 };
