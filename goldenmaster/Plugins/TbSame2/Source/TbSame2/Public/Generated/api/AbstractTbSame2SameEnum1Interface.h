@@ -18,7 +18,7 @@ limitations under the License.
 
 #include "Runtime/Launch/Resources/Version.h"
 #include "Subsystems/GameInstanceSubsystem.h"
-#include "TbSame2_data.h"
+#include "Generated/api/TbSame2_data.h"
 #include "TbSame2SameEnum1InterfaceInterface.h"
 #include "AbstractTbSame2SameEnum1Interface.generated.h"
 

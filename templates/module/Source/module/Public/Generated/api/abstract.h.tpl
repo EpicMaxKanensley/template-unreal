@@ -21,7 +21,7 @@ limitations under the License.
 #include "Runtime/Launch/Resources/Version.h"
 #include "Subsystems/GameInstanceSubsystem.h"
 {{- $ModuleName := Camel .Module.Name}}
-#include "{{$ModuleName}}_data.h"
+#include "Generated/api/{{$ModuleName}}_data.h"
 {{- with .Interface }}
 {{- $Class := printf "%s%s" $ModuleName (Camel .Name) }}
 #include "{{$Class}}Interface.h"
